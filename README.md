@@ -24,5 +24,7 @@ text.contains   (FILE, WHAT)
 
 ### Prompt
 
+```python
 prompt.vim      (FILE)
 prompt.confirm  (MESSAGE)
+```
