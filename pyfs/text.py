@@ -1,8 +1,5 @@
-from subprocess import call
-
-
 def replace(file_path, args):
-    with open(file_path, "r+") as f:
+    with open(file_path, 'r+') as f:
         text = f.read()
 
         for find, replacement in args:
@@ -13,5 +10,6 @@ def replace(file_path, args):
         f.truncate()
 
 
-def contains(file_path, what):
-    return None
+def contains(fp, what):
+    with open(fp) as f:
+        return what in f.read()

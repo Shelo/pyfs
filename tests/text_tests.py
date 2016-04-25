@@ -18,11 +18,11 @@ def test_replace():
                            'Test Project:4\n' \
                            'Test:5'
 
-    pyfs.file.remove("text_replace_cp.md")
+    pyfs.file.remove("testdir/text_replace_cp.md")
 
 
 def test_contains():
-    assert pyfs.text.contains("testdir/text_contains.md", "test")
+    assert pyfs.text.contains("testdir/text_contains.md", "test") == True
 
 
 test_engine = TestEngine(__name__)
