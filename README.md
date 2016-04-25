@@ -3,7 +3,7 @@ Pyfs
 
 All-in-one easy file system management for python.
 
-**Objective**: be competent enough to make handle automated system deployment.
+**Objective**: be competent enough to handle automated system deployment.
 
 ## Modules
 
